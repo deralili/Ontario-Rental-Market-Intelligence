@@ -1,0 +1,34 @@
+
+# Large original source datasets
+/data/raw/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database backups
+*.backup
+*.dump
+*.sql.gz
+
+# Power BI temporary files
+*.pbitmp
+*.lock
+
+# Microsoft Office temporary files
+~$*
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
